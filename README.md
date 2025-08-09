@@ -20,13 +20,13 @@ Ruletka — это пример комплексной работы над ве�
 
 ### frontend
 ```bash
-cd Frontend
+cd Frontend/CASE
 npm install
 npm run dev
 ```
 ### backend
 ```bash
-cd backend
+cd backend/CaseNova
 pip install -r requirements.txt
-python app.py
+python manage.py runserver
 ```
