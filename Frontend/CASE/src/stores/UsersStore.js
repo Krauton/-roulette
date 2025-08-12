@@ -12,7 +12,7 @@ export const useUsersStore = defineStore('usersStore', {
       this.loading = true
       this.error = null
       try {
-        const response = await api.get('/users/')  // замени на свой API эндпоинт
+        const response = await api.get('/users/')
         this.users = response.data
       } catch (err) {
         this.error = err
